@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	[type='text'],
+	[type='email'],
+	[type='url'],
+	[type='password'],
+	[type='number'],
+	[type='date'],
+	[type='datetime-local'],
+	[type='month'],
+	[type='search'],
+	[type='tel'],
+	[type='time'],
+	[type='week'],
+	[multiple],
+	textarea,
+	select,
+	.listbox {
+		@apply w-full border-gray-300 rounded-full shadow-sm focus:border-shark focus:ring-shark text-xs h-[36px];
+	}
+	button,
+	ul {
+		@apply ring-0 focus:ring-0 outline-0 focus:outline-0;
+	}
+	[type='checkbox'],
+	[type='radio'] {
+		@apply rounded border-gray-300 focus:ring-shark focus:ring-offset-0;
+	}
+	.checkbox-checked {
+		background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="1B1C1F" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
+	}
+	[type='radio'] {
+		@apply rounded-full;
+	}
+	.searchbox {
+		@apply rounded-full text-xs placeholder:text-placeholder-text border-none shadow-none focus:ring-0 w-96 py-3 px-4;
+	}
+	html,
+	body {
+		font-family: var(--font-poppins), sans-serif;
+		@apply bg-aqua-haze;
+	}
+	label {
+		@apply block text-xs font-light text-gray-600;
+	}
+	.main-menu-item {
+		@apply flex items-center gap-3 mt-4 px-4 py-3 rounded-full hover:bg-shark-450 cursor-pointer text-white text-xs font-semibold overflow-hidden;
+	}
+	.sub-menu-item {
+		@apply flex items-center gap-3 mt-4 px-4 py-3 rounded-full hover:bg-jagged-ice-550 cursor-pointer text-shark text-xs font-semibold;
+	}
+	.no-ring {
+		@apply focus:ring-0 focus:ring-offset-0;
+	}
+	.no-autofill {
+		@apply shadow-[inset_0_0_0px_1000px_rgb(255,255,255)];
+	}
+	.action-btn {
+		@apply bg-jagged-ice hover:bg-jagged-ice-550 text-shark text-xs px-4 py-3 rounded-full w-full whitespace-pre disabled:bg-gray-500;
+	}
+	.link-btn {
+		@apply bg-shark text-white hover:bg-shark-450 text-xs font-medium shadow-tile-shadow px-4 py-2 rounded-full flex items-center justify-center cursor-pointer;
+	}
+	.action2-btn {
+		@apply flex
+    justify-center
+    items-center
+    bg-shark
+    text-white
+    rounded-full
+    px-4
+    py-3
+    text-xs
+    whitespace-pre
+    disabled:bg-[#b1b1b1];
+	}
+	table.zebraTable tbody tr:nth-child(even) {
+		background-color: rgb(246 248 249);
+	}
+}

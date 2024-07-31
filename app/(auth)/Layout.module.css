@@ -1,0 +1,77 @@
+.cloud_one {
+  background: url('/cloud_1.png') no-repeat;
+  position: absolute;
+  bottom: 90px;
+  left: 40%;
+  width: 50px;
+  height: 100px;
+  background-size: contain;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  z-index: 2;
+  transform: translateX(-650%);
+  opacity: 0.9;
+  animation: cloud_one 50s linear infinite;
+}
+.cloud_two {
+  background: url('/cloud_2.png') no-repeat;
+  position: absolute;
+  bottom: 110px;
+  left: 65%;
+  width: 30px;
+  height: 90px;
+  background-size: contain;
+  filter: blur(2.5px);
+  -webkit-filter: blur(2.5px);
+  z-index: 0;
+  transform: translateX(-1000%);
+  opacity: 0.9;
+  animation: cloud_two 60s linear infinite;
+}
+
+.car {
+  transform: translateX(180%);
+  animation: car 30s linear infinite;
+}
+.wheel {
+  filter: blur(1px);
+  -webkit-filter: blur(0.5px);
+  animation: wheel 3s linear infinite;
+}
+/* keyframes */
+
+@keyframes cloud_one {
+  0% {
+    transform: translateX(-650%);
+  }
+  100% {
+    transform: translateX(600%);
+  }
+}
+
+@keyframes cloud_two {
+  0% {
+    transform: translateX(-1000%);
+  }
+  100% {
+    transform: translateX(500%);
+  }
+}
+
+@keyframes car {
+  0% {
+    transform: translateX(180%);
+  }
+  100% {
+    transform: translateX(-450%);
+  }
+}
+
+@keyframes wheel {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
