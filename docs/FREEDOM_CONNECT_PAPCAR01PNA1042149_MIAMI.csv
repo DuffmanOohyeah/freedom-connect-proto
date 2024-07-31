@@ -1,0 +1,5 @@
+Type,miamiID,"StrataRef","Inception Date","Diary or Task","Code","Diary Comments","Task Description","Task Additional Information","Task Due Date","Subject Line","PolicyID","System Task Definition Code","PartyID"
+DEVICE_UNPLUGGED_CANCEL,03290e81-9dc8-4293-abbc-953c4a896510,"2347373/001","2023-03-22T00:34:08.227","T","MiamiWF1",,"Please Cancel - Device Unplugged",,"2023-05-13T23:59:59.999Z",,"548996672","CANCUNPL","2347373"
+DEVICE_UNPLUGGED_REMINDER,71e54a42-798c-4738-b91b-df196d1edb9e,"2347373/001","2023-03-22T00:34:08.227","D","AUNPLUG","Issue 7 Day Unplugged RTA Letter",,,,,"548996672",,"2347373"
+DEVICE_UNPLUGGED_REMINDER,f0abb801-1b8f-4e6b-a2aa-0de27b283f38,"2347373/001","2023-03-22T00:34:08.227","D","AUNPLUG","Issue 7 Day Unplugged RTA Letter",,,,,"548996672",,"2347373"
+FIRST_PLUGIN,e6fe9e1b-44b4-49e7-a647-0230550b0592,"2347373/001","2023-03-22T00:34:08.227","D","TELE1","Device First Plugin",,,,,"548996672",,"2347373"

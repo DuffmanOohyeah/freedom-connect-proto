@@ -1,0 +1,47 @@
+Order,Desc,URL,Method,In Use,Comment,UI Location
+1,Activation,/user/activation,PUT,false,,Activation Page
+5,Create Admin User,/user,POST,false,,User Mgmt
+7,Get Business Units,/portal/unit/business,GET,false,,TBD
+8,Get Device Suppliers,/portal/device/supplier,GET,false,,TBD
+10,Get FNOL Statuses,portal/policy/fnol/status,GET,false,,Crash Reports
+19,Lock/Unlock User,/portal/user/lock,POST,false,,TBD
+21,Password Reset,/user/credentials,PUT,false,,TBD
+20,Request Password Reset Email,/user/credentials,POST,false,,TBD
+12,Request Forgotten Username Email,/user/credentials/username,POST,false,,TBD
+22,Update Device Notification Token,/user/token,PUT,false,,TBD
+26,Validate/Invalidated Excessive Speeding Event,portal/policy/excessive,PUT,false,,Reporting Tab
+27,Cancel Policy for unplug,/portal/device/cancel-for-unplug,POST,false,,Reporting Tab
+28,Cancel Policy for no data,portal/device/cancel-for-nodata,POST,false,,Reporting Tab
+31,Report - Device No Data,portal/report/device/nodata?uid=x,GET,false,,Reporting Tab
+23,Resend Comm,/portal/comm/resend,POST,true,Getting 500 error,Policy Actions
+35,Report - Excessive Speed,/portal/report/excessivespeed/unprocessed?uid=x,GET,true,,Reporting Tab
+18,Update FNOL Status,portal/policy/fnol,PUT,false,,Crash Reports
+2,Login,/user/session,POST,true,,Auth
+3,Logout,/user/session,DELETE,true,,Auth
+4,Search,/portal/search,POST,true,,Home
+6,Get Underwriters,/portal/policy/underwriter,GET,true,,User Mgmt
+9,Get Note Types,/portal/note/type,GET,true,,Policy Tab - Notes
+11,Get Admin Users,portal/user/admin?unid=x,GET,true,,User Mgmt Tab
+16,Add Note,/portal/note,POST,true,,Policy Tab - Notes
+17,Pin/Unpin Note,/portal/note/pin,PUT,true,,Policy Tab - Notes
+13,Get Policy Data,/portal/policy?opid=x,GET,true,,Policy Tab
+14,Get Score Data,/portal/score?opid=x&f=y&t=z,GET,true,,Policy Tab - Scores
+25,Get an FNOL,/portal/policy/fnol?opid={x}&edtm={y},GET,true,,Policy Tab - Crash Reports
+29,Report – Device Not Installed,/portal/report/device/notinstalled?uid=x,GET,true,,Reporting Tab
+30,Report – Device UnPlugged,/portal/report/device/unplugged?uid=x,GET,true,,Reporting Tab
+32,Report – All Members (Live),/portal/report/allmember/live?uid=x,GET,true,,Reporting Tab
+33,Report – All Members (Cancelled),/portal/report/allmember/cancelled?uid=x,GET,true,,Reporting Tab
+,Report – Risk Mileage,/portal/report/risk/mileage?uid=x,GET,true,,Reporting Tab
+15,Get Policy Notes,portal/note?opid=x,GET,true,,Policy Tab - Notes
+34,Report - FNOL,/portal/report/fnol?uid=x,GET,true,,Crash Reports Tab
+24,View Trip Summaries,/portal/policy/trips?opid={x}&f={y}&t={z},GET,true,,Policy Tab - Trips
+,Get Excessive Speeding Report,TBD,,,,Reporting Tab
+,Policy Reset Password,TBD,,,,Policy Tab - Actions
+,Policy Send Dashboard Activation,TBD,,,,Policy Tab - Actions
+,Policy Send Device Not Reporting,TBD,,,,Policy Tab - Actions
+,Policy Send Device Removed,TBD,,,,Policy Tab - Actions
+,Policy Send Device Returns,TBD,,,,Policy Tab - Actions
+,Policy Send Install Chase Email,TBD,,,,Policy Tab - Actions
+,Policy Send Text,TBD,,,,Policy Tab - Actions
+,Theft Tracking,TBD,,,,Theft Tracking Tab
+,,,,,,

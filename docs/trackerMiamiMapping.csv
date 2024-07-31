@@ -1,0 +1,18 @@
+"Event Type","Miami File Name","Diary or Task","Code","System Task Definition Code","Diary Comments","Task Description"
+"FNOL","No Miami Note or Task",,,,,
+"DeviceReturnedTask","DeviceReturnedTask","T","MiamiWF1","RETURN","","Telematics device returned - process account refund (F2D)"
+"DeviceReturnedTask","DeviceReturnedNote","D","RETURNED","","Telematics device has been returned by customer",""
+"ExcessiveSpeedingCancellation","ExcessiveSpeedingCancellationNote1","D","EXSPEED","","Please send excessive speeding RTA letter",""
+"ExcessiveSpeedingCancellation","ExcessiveSpeedingCancellationNote2","D","TELE11","","Issue Cancellation for Excessive Speeding. Date: Unknown, Road Name: Unknown, Road Speed: Unknown, Actual Speed Captured: Unknown",""
+"ExcessiveSpeedOver100Cancellation","ExcessiveSpeedingOver100CancellationNote1","D","100RTA","","Please send 100 RTA Letter for excessive speeding",""
+"ExcessiveSpeedOver100Cancellation","ExcessiveSpeedingOver100CancellationNote2","D","TELE11","","Issue 100 RTA Cancellation for Excessive Speeding. Date: Unknown, Road Name: Unknown, Road Speed: Unknown, Actual Speed Captured: Unknown",""
+"Risk Address","No Miami Note or Task",,,,,
+"Risk Business Use","No Miami Note or Task",,,,,
+"DeviceUnPlugged","DeviceUnpluggedNote1","D","UNPLUG","","Please send 7 Day Unplugged RTA Letter",""
+"DeviceUnPlugged","DeviceUnpluggedNote2","D","TELE14","","Issue 7 Day Unplugged RTA Letter",""
+"DeviceNoneInstallationCancellation","DeviceNoneInstallationCancellationTask","T","MiamiWF1","CANCDEVS","","Please Cancel - No Device Fitted"
+"DeviceNoneInstallationReminder","DeviceNoneInstallationReminderNote1","D","NODEVICE","","Please send no device RTA letter",""
+"DeviceNoneInstallationReminder","DeviceNoneInstallationReminderNote2","D","TELE12","","Please issue 7 Day No Device Letter",""
+"Poor Score","PoorScoreNote1","D","POORRTA","","Please issue 7 Day Poor Score RTA Letter",""
+"Poor Score","PoorScoreNote2","D","TELE15","","Please issue 7 Day Poor Score RTA Letter",""
+"FirstPlugin","FirstPluginNote","D","TELE1","","Device First Plugin",""

@@ -1,0 +1,31 @@
+openapi: "3.0.2"
+info:
+  title: Freedom Connect API Requests
+  version: "1.0"
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /test:
+    get:
+      responses:
+        "200":
+          description: OK
+  /search:
+    get:
+      description: Please add ability to search email address
+      responses:
+        "200":
+          description: OK
+  /policy/id:
+    put:
+      description: Update Email and Telephone number
+      responses:
+        "200":
+          description: OK
+
+  /suspend:
+    post:
+      description: Suspends a policy. To be used in cases where user cannot get to vehicle, for example on holiday
+      responses:
+        "200":
+          description: OK

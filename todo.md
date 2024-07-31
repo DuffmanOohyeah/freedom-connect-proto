@@ -1,0 +1,108 @@
+# Todo
+
+- Search Form,
+  - [x] Add email to search
+  - [ ] Ask Neil about API
+- [ ] On click policies navigate back
+- [ ] Update telephone number/email - ask Neil
+- [x] Add username/s
+- [x] Policy detail on left
+- [x] Format dates
+- [ ] Device Detail,
+  - [x] Status remove dropdown.
+  - [ ] Ask Neil about adding device status on API
+- [x] Trips tab
+  - Google Maps
+- [x] Notes, fix create note loading
+- [x] Notes, reduce height
+- [x] Resend Activate email
+  - [x] Fix
+  - [ ] Check with Neil if need to add note manually
+- [ ] Reporting, add counter
+- [x] Reporting, export to CSV export all fields
+- [x] Reporting, check reports are correct
+- [ ] Reporting, search func
+- [ ] Reporting, excessive speeding report (need endpoint)
+- [x] Reporting, device no data
+- [x] Device Unplugged,
+<!-- - [ ] Reporting, show notes -->
+- [x] Device Unplugged, when cancel raised add fields on report to show if SNS sent
+- [x] Device Unplugged, add last heart beat
+- [ ] Suspend functionality (ask Neil about)
+  - Btn on policy page to suspend policy (garage, holidays etc)
+    - End date
+    - Description
+  - Suspended policy report
+  - Remove suspended policies from unplugged/no data report
+- [x] Search results, add status
+
+- Actions
+
+  - [ ] Replacement device
+  - [ ] Suspend
+  - [ ] Send Customer Email
+    - [ ] Device not reporting
+    - [ ] Device unplugged
+    - [ ] Install chase
+    - [ ] Blank email
+  - [ ] Send Customer SMS
+    - [ ] Device not reporting
+    - [ ] Device unplugged
+    - [ ] Install chase
+  - [ ] Send Broker Email
+
+- [x] Score, order date desc
+- [x] Score, confirm score is for
+- [ ] Score, drop down add one day score
+- [x] Score, drop down add night time driving (Btw braking and cornering)
+- [x] Device Details, device history (check with Neil API)
+- [x] Add user, check error messages and loading
+- [x] Users table, filter functionality
+- [ ] Policy Updates, Check reinstates are sending across
+- [x] Add username to userMgmt
+- [x] Add export to FNOL reports
+
+# To do
+
+- [x] Reorder scoring
+- [x] Add fields on unplugged for sns, 1st comm and 2nd comm
+- [x] Trip speed in data, with Neil
+- [x] No data report
+- [x] Agent resend activation
+- [ ] 30 Day report, start putting together
+- [ ] Liability predictor
+- [ ] Device details tab - Waiting on endpoint
+- [x] Check policy events - reprocess failed events
+- [x] On success message from action
+- [ ] Navigate off the excessive page
+- [x] Unplugged sns Field
+- [x] Order reporting tables by columns
+- [x] Add link to Google Map so normal trip
+- [x] Add action from report
+- [ ] Crash report action, confirm it API
+- [x] Trips add dates to query params
+- [ ] Sticky hover effect on reports
+- [ ] Crash Report PDF
+- [ ] Bug: Daily Scores not showing (2251)
+- [ ] Bug: Email not showing on policy holder details (2173)
+- [x] Crash Report Update
+- [ ] Crash Report add trip
+- [ ] Confirm Device Unplugged event (PAPCAR01PNA1042149 sent 11th May@17.15)
+- [ ] Bug: User name with apostrophe
+- [ ] Miles error
+- [ ] reporting riskPostcode - Neil to add Risk Postcode
+- [ ] device details status - Check again and latest location DTM
+- [x] policy not showing on UAT (emma 1st on prod), ()
+- [ ] Times are an hour out (Marie to send through proof)
+- [x] Scores coloring (https://portal.freedomconnect.co.uk/policies/2312/scores)
+- [ ] Score miles not matching up (https://portal.freedomconnect.co.uk/policies/2312/scores)
+- [ ] Trip Map speed limits
+  - [ ] Check if getting, Neil says 15 secs
+  - [ ] Check if each point is speeding
+- [ ] Device page when multiple devices (https://portal.freedomconnect.co.uk/policies/935/devicedetails)
+- [x] Premium Choice when nav => kick out
+- [ ] Crash report - Distance from Address TODO
+- [ ] Update FNOL Status - Breaking
+- [x] From Emma, Patrick, on the Freedom connect All Members report, I can still see a cancelled policy on there. Is it you that can set them to not show on there if cancelled (there's a separate cancelled members) (example: MCRX12PC01)
+- [ ] Emma: Crash scaling
+- [ ] Inception Date on ALl Members report (Ask Neil)
